@@ -7,6 +7,7 @@ function App(props) {
     <h1>Clock: Exemplo de acesso a API externa</h1>
     <ComputerClock />
     <WorldClock />
+    <WorldClock local="Europe/London"/>
   </div>);
 }
 
